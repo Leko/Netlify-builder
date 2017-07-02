@@ -1,0 +1,21 @@
+{
+  "name": "Netlify build trigger",
+  "description": "It can be used for reservation posting on a static site, etc.",
+  "repository": "https://github.com/Leko/Netlify-builder.git",
+  "keywords": [
+    "Netlify",
+    "build",
+    "automation"
+  ],
+  "env": {
+    "BUILD_HOOK_URL": {
+      "description": "Build hook url for Netlify",
+      "value": "https://api.netlify.com/build_hooks/XXXXXXXXXXXXXXXXXXXXXXXX"
+    }
+  },
+  "formation": {},
+  "addons": [
+    "scheduler"
+  ],
+  "buildpacks": []
+}
