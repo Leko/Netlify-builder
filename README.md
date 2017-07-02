@@ -20,7 +20,7 @@ Click this button
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
-when deploy was finished, open Heroku scheduler admin.  
+When deploy was finished, open Heroku scheduler admin.  
 Click "Add net job" and 
 
 |Label|Value|
@@ -37,8 +37,10 @@ View your Netlify builds,
 
 ![screenshot](https://raw.githubusercontent.com/Leko/Netlify-builder/master/screenshots/deploys.png)
 
+It works fine.
+
 ## More information
-- []()
+- [NetlifyとHerokuで予約投稿機能を実現する](https://blog.leko.jp/post/automate-build-netlify-with-heroku)
 
 ## Contribution
 1. Fork this repository
